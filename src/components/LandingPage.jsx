@@ -9,7 +9,7 @@ import {
   GraduationCap,
   ChevronRight,
 } from "lucide-react";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 const LandingPage = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -266,7 +266,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section>{/* <Footer /> */}</section>
+      {/* <section><Footer /></section> */}
     </div>
   );
 };
